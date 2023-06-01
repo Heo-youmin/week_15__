@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BREEDING❋PLANTS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+	<style>
+		@keyframes blink {0% { opacity: 1; }50% { opacity: 0; }100% { opacity: 1; }}
+		body{background-color: black; overflow-x: hidden; scroll-behavior: smooth;}
+		h1,h2,h3,h4{color: #00ea00;}
+		h1{font-size: 3rem; font-weight: 500; margin-top: 1rem; margin-bottom: 1rem;}
+		h2{font-size: 2rem; font-weight: 300;}
+		h4{font-size: 3rem; font-weight: 300;}
+		footer{padding-top: 20px; background-color: #383838;}
+		.wrap{width: 1400px; margin: auto; padding: 50px; padding-top: 0; }
+		.flex{display: flex;}
+		.between{justify-content: space-between;}
+		.line {border-top: 2px solid #00ea00;}
+		.profit{padding: 0 50px 0 50px;}
+		.profit h1{font-size: 8rem; text-align: center; font-weight: 400; margin-top: 1rem; margin-bottom: 1rem; text-align: left;}
+		.profit p{padding: 50px; margin-top: -500px; opacity: 1; margin-top: -50px; font-size: 3rem; font-weight: 300; text-align: center; opacity: 0;}
+		.fillbox{background-color: #00ea00; padding: 0 50px 0 50px;}
+		.fillbox h1{color: black; font-size: 5rem; margin-top: 2.5rem;}
+		.fillbox h2{color: black;}
+		.fillbox-b:hover{transition: 0.5s; border-radius: 20px; color: black; background-color: #00ea00;}
+		.fillbox-b:hover img{opacity: 0}
+		.fillbox-b:hover p{opacity: 1}
+		.before-after{padding: 0 50px 0 50px;}
+		.before-after h1{margin-bottom: 2rem;}
+		.before-after h2{line-height: 2.5rem;}
+		.changebox{opacity: 0.5; text-align: center} 
+		.changebox:hover{opacity: 1}
+		.newbox {width: 1300px; background-color: #00ea00; border-radius: 20px;}
+		.newbox h1{color: black; font-size:10rem;}
+		.newbox h2{color: black; font-size: 3.5rem;}
+		.ticker{background: #00ea00; height: 2rem; overflow: hidden; width: 1400px; color: black; margin-bottom: 50px;}
+		.box{padding-left: 10px; padding-right: 10px; height: 100px; border-radius: 20px;background-color: #00ea00; width: 380px; padding-top: 10px;}
+		.box h1{color: black; margin-top: 5px;}
+		.box h2{color: black; font-size:1rem; margin-top:-20px; line-height:40px }
+		.curry{overflow-x: scroll; white-space: nowrap;}
+		.curry img{display: inline-block; height: auto; margin-right: 10px;}
+		.curry::-webkit-scrollbar {background-color: black; border-radius: 20px;}
+		.curry::-webkit-scrollbar-thumb{background-color: #00ea00; border-radius: 20px;}
+		.curry2{overflow-y: auto; overflow-x: hidden; white-space: nowrap;}
+		.curry2 img{display: inline-block; margin-right: 10px; height: auto;}
+		.curry2::-webkit-scrollbar {background-color: black; border-radius: 20px; width: 15px;}
+		.curry2::-webkit-scrollbar-thumb{background-color: #00ea00; border-radius: 20px;}
+		.curry2box{height: 740px;}
+		.curry2box h1,.curry2box h2{color: #00ea00; text-align: center;}
+		.column{display: flex; flex-direction: column; justify-content: space-between;}
+		.green-R{text-align: center}
+		.green-RR{height: 1750px;text-align: center; background-image:url("final.png");background-size: cover;}
+		.green-RR{display: flex; justify-content: center; align-items: center}
+
+		.blinking-text {animation: blink 1s infinite;}
+		.green-wrap{width: 1500px; margin: auto; padding: 50px; padding-top: 0; position: relative; overflow: hidden;}
+		.green-wrap::before {content: "";position: absolute;top: 0;left: 1; width: 1500px; height: 780px; z-index: -1;}
+		.green-wrap::before {background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDgwYjczN2U4ZjRiYjUwMjJjNWE5NjAyNDk0MzIxNmE0NzAyYjgxZCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/U2RJ8AkYawHEgwqMg6/giphy.gif");background-size: contain; background-position: center; background-repeat: no-repeat;}
+		.green-R {position: relative; max-height: 780px; z-index: 1; overflow: auto;}h1, h2 {margin: 0;}
+		.green-R::-webkit-scrollbar{width: 0rem;}
+		.green-R::-webkit-scrollbar-track{background: transparent;}
+		.green-R::-webkit-scrollbar-thumb{background: transparent;}
+
+		.content {padding: 400px 0px 200px 0px;}
+		.container{flex-wrap: wrap; margin-top: 200px;}
+
+		.first {background-image: url("https://media.giphy.com/media/xdkXW7Scx6gus/giphy.gif");background-size: cover;background-position: center;background-repeat: no-repeat; padding: 50px;}
+	</style>
+</head>
+<body>
+	<section class="wrap">
+		<div class="first">
+			<div class="flex between">
+				<div class="column">
+					<div>
+						<h1>품종개량:[Breeding}</h1>
+						<h2>넓은 의미로는 육종.<br>품종:품종의 특성을 개량하는 것<br>육종:새로운 농작물이나 가축을 개발</h2>
+					</div>
+					<div>
+						<h2>품종 개량에 대한 간단한 설명<br>A brief description of the breeding</h2>
+					</div>
+				</div>
+				<div>
+					<div class="box ">
+						<h1>INFO +</h1>
+						<h2>아래로 스크롤을 내려보세요!</h2>
+					</div>
+					<div class="curry2 curry2box">
+						<img src="info.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="wrap">
+		<div class="flex between fillbox">
+			<h1>품종개량을 하면<br>어떤 장점이 있나요?</h1>
+			<h1 style="font-size: 20rem;font-weight: 400; margin-top: -40px; margin-bottom: -60px;">+</h1>
+		</div>
+		<div class="profit">
+				<div class="flex fillbox-b container">
+					<img src="P1.png">
+					<h1>생산성 향상</h1>
+					<p> 품종개량은 농산물의 수확량과 생산성을 향상시키는 데 중요한 역할을 합니다. 농업 생산성의 향상은 식량 안보를 강화하고, 인구 증가와 급격한 도시화에 대한 대비책을 마련하는 데 도움이 됩니다.</p>
+				</div>	
+				<div class="line"></div>
+				<div class="flex fillbox-b container">
+					<img src="P2.png">
+					<h1>내성 강화</h1>
+					<p>품종개량은 재배작물의 내성을 강화시키는 데 도움을 줍니다. 이는 새로운 병해충에 대한 저항성이나 극한 기상 조건에서의 생존력을 향상시키는 등 다양한 장점을 가져올 수 있습니다.</p>
+				</div>	
+				<div class="line"></div>
+				<div class="flex fillbox-b container">
+					<img src="P3.png">
+					<h1>품질 개선</h1>
+					<p>품종개량은 농산물의 품질을 개선시키는 데 도움을 줍니다. 예를 들어, 맛과 향이 더욱 풍부해지거나, 보존 기간이 더욱 길어지는 등의 장점을 가져올 수 있습니다.</p>
+				</div>
+				<div class="line"></div>	
+				<div class="flex fillbox-b container">
+					<img src="P4.png">
+					<h1>경제적 이점</h1>
+					<p>품종개량은 농산물 생산과 유통을 효율적으로 할 수 있게 하여, 경제적 이점을 가져올 수 있습니다. 예를 들어, 고가의 수입작물을 대체할 수 있고, 수출 시장을 확대할 수 있습니다.</p>
+				</div>	
+				<div class="line"></div>
+				<div class="flex fillbox-b container">
+					<img src="P5.png">
+					<h1>지속 가능한<br> 농업</h1>
+					<p>품종개량은 더욱 지속 가능한 농업을 위한 기반을 마련하는 데 도움을 줍니다. 이는 농업의 환경 친화성, 재생 가능 에너지 사용, 그리고 대기오염, 수질 오염, 토양 오염 등을 줄이는 데 도움이 됩니다.</p>
+				</div>	
+				<div class="line"></div>
+			</div>
+		</div>
+	</section>
+	<section class="wrap">
+		<h2 class="ticker"  data-speed="1" data-gap="0"><p><span>품종개량 전후 비교 Comparison before &after breeding 품종개량 전후 비교 Comparison before &after breeding</span></p></h2>
+		<div class="before-after">
+			<h1>식물 품종개량 전후 비교</h1>
+			<h2>미국 식품안정청에 따르면 마트에서 파는 작물의 70%는<br>
+				유전자 조작/ 품종개량이 이루어진 결과물이라고 합니다.<br>
+				우리에게 익숙한 과일, 곡물들에게도 숨겨진 본모습이 있다고 하는데<br>
+				충격적인 원래의 모습을 살펴볼까요?<br>
+			</h2>
+			<div class="flex between">
+				<div class="changebox">
+					<img src="new1.png" style="width: 100%;">
+					<h1>수박</h1>
+				</div>
+				<div class="changebox">
+					<img src="new2.png" style="width: 100%;">
+					<h1>바나나</h1>
+				</div>
+				<div class="changebox">
+					<img src="new3.png" style="width: 100%;">
+					<h1>당근</h1>
+				</div>
+				<div class="changebox">
+					<img src="new4.png" style="width: 100%;">
+					<h1>가지</h1>
+				</div>
+				<div class="changebox">
+					<img src="new5.png" style="width: 100%;">
+					<h1>옥수수</h1>
+				</div>
+				<div class="changebox">
+					<img src="new6.png" style="width: 100%;">
+					<h1>감자</h1>
+				</div>
+			</div>
+			<div class="changebox">
+				<img src="Back1.jpg">
+			</div>
+			<div class="changebox">
+				<img src="Back2.jpg">
+			</div>
+			<div class="changebox">
+				<img src="Back1.jpg">
+			</div>
+			<div class="changebox">
+				<img src="Back2.jpg">
+			</div>
+			<div class="changebox">
+				<img src="Back1.jpg">
+			</div>
+			<div class="changebox">
+				<img src="Back2.jpg">
+			</div>
+
+		</div>
+	</section>
+	<section class="wrap newbox">
+		<div class=" blinking-text flex">
+			<div><h1 style="margin-top: 20px;">NEW!</h1></div>
+			<div><h2 style="margin-top: 40px;">새롭게 주목받는 <br>이색 품종개량 과일</h2></div>
+		</div>
+		<div class="curry">
+			<img src="newlist.png">
+		</div>
+	</section>
+	<section class="green-wrap">
+		<div class="green-R">
+			<img src="green-R.png" style="padding-top: 266.5px;">
+			<div class="content">
+				<h1>[녹색 혁명]</h1>
+				<h2>녹색 혁명(綠色革命, 영어: Green Revolution)은 농업 분야에서,<br>
+				품종개량 등 새로운 농업기술의 도입으로 많은 수확을 올리는 농업상의 모든 개혁을 이르는 말.<br>특히 1960년대 개발 도상국에서 일어난, 농작물의 대량생산으로 인한 비약적인 식량 생산력의 증대를 설명한다.<br>
+				1944년 미국의 지원을 받아 멕시코에서 밀 생산량이 획기적으로 증가한 것이 그 시초이며,<br>1960년대 이후 미국을 중심으로, 품종개량 등의 관련 연구가 활발히 진행되고,<br>식량 부족에 직면한 개발 도상국들이 적극적으로 이 기술을 도입하면서 세계적으로 농업 생산량이 획기적으로 증가하게 되었다.<br><br>
+				이 변화는 농업 생산량의 증가를 가져온 동시에 많은 관개 시설의 확장, 잡종 씨앗의 배포, 화학 비료 및 농약의 사용 확대를 가져왔다.</h2>
+			</div>
+		</div>
+	</section>
+	<section class="wrap">
+		<div class="green-RR">
+			<h4>품종개량은 미래의 농업과 식량 생산에 핵심적인 역할을 맡을<br> 것으로 기대됩니다. 지속적인 인구 증가와 기후 변화로 인해<br> 식량 안보와 농업의 지속 가능성은 점점 중요해지고 있습니다.<br> 이에 따라 품종개량은 더욱 많은 관심을 받을 것으로 예상됩니다.<br><br>
+
+			첨단 유전체 분석, 유전자 조작, 빅데이터, 인공지능과의<br> 융합을 통해 품종개량은 더욱 정교하고 효율적인 방식으로<br> 이루어질 것입니다. 이를 통해 적응력 있는 작물과 환경<br> 친화적인 재배 방법, 개인 맞춤형 식품 등이 개발될 것입니다.<br>또한, 소비자들의 건강과 안전에 대한 요구를 충족시킬 수 있는<br> 자연적인 개량 방법도 연구될 것입니다.<br><br>
+
+			품종개량은 식량 안보와 농업의 지속 가능성을 위한 핵심적인<br>요소로서 미래에 더욱 중요한 역할을 맡을 것입니다. 많은<br> 관심과 지원이 필요한 분야이며, 우리의 식탁에 안전하고<br> 풍요로운 식량을 공급하기 위해 품종개량에 대한 관심을<br> 높여주시기 바랍니다!
+			</h4>
+		</div>
+		<div class="line"></div>
+	</section>
+	<footer>
+		
+	</footer>
+
+	<script src="wow.js"></script>
+    <script>new WOW().init();</script>
+    <script type="text/javascript">
+        bhTicker("ticker",2);
+
+function bhTicker(cl,speed) {
+        let t = document.getElementsByClassName(cl);
+        let ta = []; let ts=[]; let tg=[]; let tw=[];
+        let container,mover,text,textWidth;
+
+        for(let i=0; i<t.length; i++){
+                container = t[i];
+                mover = container.getElementsByTagName("p").item(0);
+                text = mover.getElementsByTagName("span").item(0);
+
+                // set
+                mover.style.position = "absolute";
+                mover.style.margin = "0 0 0 0";
+                mover.style.left = "0px";
+                mover.leftPosition = 0;
+                mover.style.width = text.childNodes.item(0).length + "em";        // stretch width
+                textWidth = text.offsetWidth;
+
+                let speed2 = t[i].dataset.speed;
+                if (textWidth > container.offsetWidth) {
+                        if(speed2 == 1){speed2 = 2};
+                        mover.style.width = textWidth * speed2 + "px";
+                        
+                        for(let k=0;k<speed2;k++){
+                                mover.innerHTML += mover.innerHTML;        
+                        }
+                }
+
+                tw.push(textWidth);
+                tg.push(t[i].dataset.gap);
+                ts.push(t[i].dataset.speed);
+                ta.push(mover);
+        }
+
+        let tickerAction = function() {
+                for(let j=0;j<ta.length;j++){
+                        let speed = parseInt(ts[j]);
+                        let gap = parseInt(tg[j]);
+                        let tw2 = tw[j];
+
+                        if (ta[j].leftPosition * -speed > tw2*speed) {
+                                ta[j].leftPosition = -speed;
+                        } else {
+                                ta[j].leftPosition -= speed;
+                        }
+
+                        ta[j].style.left = (-gap + ta[j].leftPosition) + "px";
+                }
+                window.requestAnimationFrame(tickerAction);
+        };
+        tickerAction();
+}
+</script>
+</body>
+<footer>
+	<section class="wrap column">
+		<div>
+			<h1>❋<br>BREEDING<br>PLANTS</h1>
+			<h2>© You min Heo<br>all rights reserved.</h2>
+		</div>
+	</section>
+</footer>
+</html>
